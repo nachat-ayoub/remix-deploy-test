@@ -1,5 +1,5 @@
 import type { MetaFunction } from '@remix-run/node';
-import { Link } from '@remix-run/react';
+import { Link, useParams } from '@remix-run/react';
 
 export const meta: MetaFunction = () => {
   return [
@@ -9,9 +9,13 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+  const { name } = useParams();
+
   return (
     <center style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
-      <h1>Anime4World Search Page</h1>
+      <h1>
+        Anime4World Search Page - <strong>{name}</strong>{' '}
+      </h1>
       <img
         height={'340px'}
         src='https://pngfre.com/wp-content/uploads/anime-33-759x1024.png'
