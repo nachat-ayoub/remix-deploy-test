@@ -18,7 +18,7 @@ export default function Index() {
         alt='Anime Image'
       />
       <h3>
-        <Link to='/home' prefetch='intent'>
+        <Link to='/home/animes' prefetch='intent'>
           Home Page
         </Link>
       </h3>
