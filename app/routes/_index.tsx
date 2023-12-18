@@ -4,7 +4,7 @@ import { Link } from '@remix-run/react';
 export const meta: MetaFunction = () => {
   return [
     { title: 'Anime4World | Welcom' },
-    { name: 'description', content: 'Welcome to Anime4World!' },
+    { name: 'description', content: 'Welcome to Anime4World' },
   ];
 };
 
