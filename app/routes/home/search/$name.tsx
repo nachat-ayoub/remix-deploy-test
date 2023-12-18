@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <center style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
       <h1>
-        Anime4World Search Page - <strong>{name}</strong>{' '}
+        Anime4World Search Page - <i>{name}</i>
       </h1>
       <img
         height={'340px'}
